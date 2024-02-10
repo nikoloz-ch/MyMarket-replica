@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>მეორადი და ახალი ნივთების ყიდვა-გაყიდვის პლატფორმა Mymarket</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/cart.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row row1">
+                <div class="top col-12">
+                    <div class="first">
+                        <a class="logo-main">
+                            <i class="svg logo">
+                            </i>
+                            <div>
+                                <form class="form vertcent">
+                                    <div class="photo">
+                                        <i class="fa-solid fa-camera" style="color: #000000;"></i>
+                                    </div>
+                                    <input type="text" class="h-100 w-100 input tbold" placeholder="ძებნა">
+                                    <div>
+                                    <a class="search">
+                                        <i class="fa-solid fa-magnifying-glass svg" style="color: #000000;"></i>
+                                    </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="second">
+                        <ul class="nextsix">
+                            <li>
+                            <a class="adds" href="">
+                                <i class="fa-solid fa-circle-plus vertcent d-flex" style="color: #e4d100;">
+                                </i>
+                                <span class="add vertcent tbmed">
+                                    დამატება
+                                </span>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="" class="vertcent d-flex t-n ic">
+                                <i class="fa-regular fa-envelope fa-lg" style="color: #000000;"></i>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="" class="vertcent d-flex t-n ic">
+                                <i class="fa-regular fa-heart fa-lg" style="color: #000000;"></i>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="" class="vertcent d-flex t-n ic">
+                                    <i class="fa-solid fa-cart-shopping fa-lg" style="color: #000000;"></i>
+                                </a>  
+                            </li>
+                            <li>
+                            <a class="adds2 ent" href="">
+                                <i class="fa-regular fa-user d-flex vertcent" style="color: #000000;"></i>
+                                </i>
+                                <span class="add2 vertcent tbmed">
+                                    შესვლა
+                                </span>
+                            </a>
+                            </li>
+                            <div>
+                                <a href="" class="wow">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="19.5" stroke="#DDDDDD"></circle>
+                                    <path d="M28.6184 13.3953C28.051 13.7384 27.8706 14.4753 28.2135 15.0418C30.5023 18.8234 29.914 23.6515 26.7829 26.7827C23.6518 29.9138 18.8238 30.5022 15.0421 28.2133C14.4758 27.8705 13.7391 28.0504 13.3956 28.6183C13.0527 29.1846 13.2341 29.9219 13.8004 30.2648C18.5289 33.1267 24.5646 32.3919 28.4782 28.4782C32.392 24.5644 33.1266 18.5287 30.2648 13.8001C29.9218 13.2336 29.1847 13.0523 28.6183 13.3953H28.6184Z" fill="#3C74FF"></path>
+                                    <path d="M13.2179 13.2174C16.3488 10.0866 21.1771 9.49807 24.9598 11.7859C25.4415 12.0773 26.0466 11.9899 26.4277 11.6087C26.4947 11.5417 26.5549 11.4655 26.606 11.3807C26.9488 10.8141 26.7674 10.077 26.2008 9.73418C21.4715 6.87343 15.4356 7.60858 11.5224 11.5217C7.60822 15.436 6.87322 21.4723 9.7349 26.2009C10.0778 26.7672 10.8151 26.9486 11.3814 26.6056C11.9483 26.263 12.1291 25.5257 11.7863 24.9591C9.49753 21.1774 10.0862 16.3488 13.2178 13.2171L13.2179 13.2174Z" fill="#3C74FF"></path>
+                                    <path d="M25.1664 23.0974C25.6163 23.2557 26.097 23.1297 26.4131 22.8138C26.5359 22.691 26.634 22.5392 26.6955 22.3644C27.598 19.7998 26.94 16.9014 25.0191 14.9805C23.0975 13.059 20.1993 12.4013 17.6354 13.3052C17.0112 13.5252 16.683 14.21 16.9032 14.8346C17.1233 15.4591 17.8082 15.787 18.4327 15.5666C20.1312 14.9679 22.0508 15.4034 23.3233 16.676C24.5958 17.9485 25.0315 19.8689 24.4334 21.5683C24.2135 22.193 24.5417 22.8774 25.1663 23.0974H25.1664Z" fill="#3C74FF"></path>
+                                    <path d="M22.2547 26.7328C22.437 26.6718 22.5948 26.5717 22.722 26.4445C23.0331 26.1331 23.1607 25.6614 23.0117 25.2157C22.8017 24.5878 22.1226 24.2488 21.4945 24.4587C19.7919 25.0278 17.9459 24.5927 16.6764 23.3235C15.4077 22.0548 14.9729 20.2089 15.542 18.5061C15.752 17.8781 15.4129 17.1988 14.785 16.989C14.1569 16.7788 13.4775 17.1184 13.2678 17.7461C12.4087 20.3165 13.0652 23.1033 14.9809 25.019C16.8971 26.9354 19.6842 27.5921 22.2547 26.733V26.7328Z" fill="#3C74FF"></path>
+                                    <path d="M18.4962 18.4962C17.6657 19.3268 17.6657 20.6736 18.4962 21.5041C19.3268 22.3346 20.6735 22.3346 21.504 21.5041C22.3347 20.6734 22.3347 19.3267 21.504 18.4962C20.6735 17.6657 19.3268 17.6657 18.4962 18.4962Z" fill="#3C74FF"></path></svg>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom col-12 d-flex">
+                    <div class="third">
+                        <ul class="vertcent">
+                            <li class="etc">
+                                <a href="">
+                                    მეორადი განვადებით
+                                </a>
+                            </li>
+                            <li class="etc">
+                                <a href="">
+                                    Trade In
+                                </a>
+                            </li>
+                            <li class="etc">
+                                <a href="">
+                                    მაღაზიები
+                                </a>
+                            </li>
+                            <li class="etc">
+                                <a href="">
+                                    ჩემით წავიღებ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="third">
+                        <ul class="vertcent">
+                            <li class="etc">
+                                <a href="">
+                                    გახსენი მაღაზია
+                                </a>
+                            </li>
+                            <li class="etc">
+                                <a href="">
+                                    დახმარება
+                                </a>
+                            </li>
+                            <li class="etc">
+                                <a href="">
+                                    კონტაქტი
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="geg">
+        404
+    </div>
+</body>
+</html>
